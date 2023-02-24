@@ -13,14 +13,16 @@ public class Main {
         heltal.add(1138);
         heltal.add(2187);
 
+        System.out.println();
+
         for (int i = 0; i<namn.size(); i++){
             System.out.println(namn.get(i));
 
         }
         System.out.println();
 
-        for (int i = 0; i<heltal.size(); i++){
-            System.out.println(heltal.get(i));
+        for (int i = namn.size() -1; i>=0; i--){
+            System.out.println(namn.get(i));
 
         }
     }
